@@ -1,0 +1,200 @@
+body{
+	background-color: #f4f4f4;
+	line-height: 1.6em
+	font-size:16px;
+	/*font-family: */
+}
+
+img{
+	border: 0px;
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic;	
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#d18e59;
+}
+
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+}
+
+#main-header{
+	background-color: #8d222c;
+	/*background-image: url("../images/physics.jpg");*/
+	color:#fff;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 50px;
+}
+
+#navbar{
+	background-color: #333;
+	color:#fff;
+	padding:10px
+
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+
+}
+
+#navbar a{
+	color:#fff;
+	font-size: 20px;
+	text-decoration: none;
+	padding-right: 30px
+}
+
+#navbar a:hover{
+	color:#8d222c;
+	font-weight: bold;
+}
+
+.imgbox{
+	text-align: center;
+	border: 0px;
+}
+
+#showcase {
+	background-image: url();
+	text-align: center;
+}
+
+.information{
+	font-size: 15px;
+	color:#fff;
+	padding-left: 40px;
+	margin-bottom: 0px;
+}
+.contact-left{
+	
+	background-color: #404040;
+	margin-bottom: 0px;
+}
+
+.email{
+	background: url("./images/pic-email.png") no-repeat 0px 4px;
+}
+
+.address{
+	background: url("./images/pic-address.png") no-repeat 0px 2px;
+}
+
+.address-list{
+	float: right;
+	display: block;
+	width: 433px;
+	line-height: 27px;
+	font-size: 15px;
+}
+
+#main-footer{
+	background-color: #8d222c;
+	color:#fff;
+	padding: 10px;
+	margin-top:0px;
+}
+
+.box-1{
+	background-color: #333;
+	color: #fff;
+
+	border: 5px red solid;
+
+	padding:20px;
+
+}
+
+.box-1 h1{
+	font-family: Tahoma;
+	font-style: italic;
+
+
+}
+
+.media{
+	border: 3px  dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+	
+
+}
+
+.media-left{
+	border: 3px  dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+	
+	text-align: left;
+}
+
+.media-right{
+	text-align: right;
+	padding: 20px
+}
+
+.media-body{
+
+}
+
+.categories{
+	padding: 10px;
+	border: 1px #ccc solid;
+	border-radius: 15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories li{
+	padding-bottom: 5px;
+	border-bottom: 2px #000 solid;
+	list-style-image: url(images/check.jpg);
+
+}
+
+.block{
+	float:left;
+	width: 33.3%;
+	border: 1px dotted #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#main-box{
+	float: left;
+	width:70%;
+}
+
+#sidebar{
+	float:right;
+	width: 30%;
+	background-color: #333;
+	color: #fff
+}
