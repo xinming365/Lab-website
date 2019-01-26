@@ -108,6 +108,15 @@ a:hover{
 
 }
 
+#showcase h2{
+	text-align: center;
+}
+
+#showcase p{
+	font-size: 18px;
+	line-height: 25px;
+
+}
 
 
 .imgbox{
@@ -120,16 +129,6 @@ a:hover{
 .imgbox img{
 	width: 50%;
 	position: relative;
-}
-
-.img-content{
-	width: 80%;
-	text-align: center;
-	border: 2px;
-	border-color:red;
-	font-size: 20px;
-	line-height: 30px;
-	margin-left: 90px;
 }
 
 .information{
@@ -158,6 +157,11 @@ a:hover{
 	width: 433px;
 	line-height: 27px;
 	font-size: 15px;
+}
+
+#main {
+	padding-left: 40px;
+	padding-right: : 40px;
 }
 
 #main-footer{
@@ -261,12 +265,7 @@ a:hover{
 	width:70%;
 }
 
-#sidebar{
-	float:right;
-	width: 30%;
-	background-color: #333;
-	color: #fff
-}
+
 
 @media screen and (max-width: 700px){
 	.media{
