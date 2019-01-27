@@ -37,6 +37,10 @@ a:hover{
 	margin:auto;
 }
 
+.pcontainer{
+	width: 1280px;
+	margin: auto;
+}
 .research-container{
 	width: 80%;
 	margin:auto;
@@ -96,7 +100,7 @@ a:hover{
 	padding:0;
 	background-color: #ddd;
 	width: 100%;
-	height: 80vh;
+	height: 90vh;
 	overflow-y: hidden;
 
 }
@@ -230,14 +234,20 @@ a:hover{
 	margin-top: 40px;
 }
 
+.paper-content	ul{
+	border:1px solid #0000fff;
+
+}
+
 .paper-content li{
 	padding-left: 30px;
 	line-height: 30px;
+	border-bottom: 1px dotted #8d222c;
 }
 
 .categories{
 	padding: 10px;
-	border: 1px #ccc solid;
+	border: 1px #ccc solid ;
 	border-radius: 15px;
 }
 
