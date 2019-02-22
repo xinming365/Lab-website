@@ -11,6 +11,7 @@ img{
 	-ms-interpolation-mode: bicubic;	
 }
 
+
 a{
 	text-decoration: none;
 }
@@ -100,7 +101,7 @@ a:hover{
 	padding:0;
 	background-color: #ddd;
 	width: 100%;
-	height: 90vh;
+	height: 120vh;
 	overflow-y: hidden;
 
 }
@@ -117,9 +118,8 @@ a:hover{
 }
 
 #showcase p{
-	font-size: 18px;
-	line-height: 25px;
-
+	font-size: normal 100%;
+	line-height: 1.5em;
 }
 
 
