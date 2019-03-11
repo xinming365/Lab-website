@@ -32,6 +32,13 @@
 	text-decoration: underline;
 }
 
+.entry-publication{
+	color: #68647a;
+	text-align: center;
+	font-size: 16px;
+	text-decoration:underline;
+}
+
 .entry-passage{
 	margin-bottom: 24px;
 }
