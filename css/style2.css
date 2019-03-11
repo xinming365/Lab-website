@@ -1,97 +1,38 @@
-body{
-	background-color: #f4f4f4;
-	line-height: 1.6em
-	font-size:16px;
-	/*font-family: */
+
+
+.article-area{
+	border-bottom: 1px solid #ebebeb;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-#main-header{
-	background-color: #8d222c;
-	color:#fff;
-}
-
-#navbar{
-	background-color: #333;
-	color:#fff;
-}
-
-#navbar ul{
-	padding: 0;
-	list-style: none;
-}
-
-#navbar li{
-	display: inline;
-
-}
-
-#navbar a{
-	color:#fff;
-	font-size: 20px;
-	padding-right: 30px
-}
-
-.container{
-	width: 80%;
-	margin:auto;
-}
-.box-1{
-	background-color: #333;
-	color: #fff;
-
-	border: 5px red solid;
-
-	padding:20px;
-
-}
-
-.box-1 h1{
-	font-family: Tahoma;
-	font-style: italic;
+.article-area p{
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color:#47425d
 
 
 }
-
-.box-2{
-	border: 3px  dotted #ccc;
-	padding: 20px;
-	margin: 20px 0;
-
+.entry-title{
+	font-size: 36px;
+	font-weight: 500;
+	color: #47425d;
 }
 
-.categories{
-	padding: 10px;
-	border: 1px #ccc solid;
-	border-radius: 15px;
+.research-title{
+	font-size: 36px;
+	font-weight: 500;
 }
 
-.categories h2{
+.entry-date{
+	color: #68647a;
 	text-align: center;
+	font-size: 13px;
+	text-decoration: underline;
 }
 
-.categories li{
-	padding-bottom: 5px;
-	border-bottom: 2px #000 solid;
-	list-style-image: url(images/check.jpg);
-
+.entry-passage{
+	margin-bottom: 24px;
 }
 
-.block{
-	float:left;
-	width: 33.3%;
-	border: 1px dotted #ccc;
-	padding: 10px;
-	box-sizing: border-box;
-}
-
-#main-box{
-	float: left;
-	width:70%;
-}
-
-#sidebar{
-	float:right;
-	width: 30%;
-	background-color: #333;
-	color: #fff
-}
